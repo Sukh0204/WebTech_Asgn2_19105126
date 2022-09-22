@@ -7,6 +7,7 @@ public class q1{
         // Creating a Scanner object
     Scanner scannerObj = new Scanner(System.in); 
     double score = scannerObj.nextDouble();
+    //checking for the correct range - inclusive of 80 and 90
     if(score<=90 || score>=80){
         score+=5;
     }

@@ -8,14 +8,15 @@ public class q3 {
         // Creating a Scanner object
     Scanner scannerObj = new Scanner(System.in); 
     int month = scannerObj.nextInt();
-
+    //switch case to get month name and num days
+    // needs to be hard coded since month is unique to each input
     switch(month){
         case 1:
         System.out.println("Month is: January and Number of Days are: 31");
         break;
 
         case 2:
-        System.out.println("Month is: Feburay and Number of Days are: 28");
+        System.out.println("Month is: February and Number of Days are: 28");
         break;
 
         case 3:

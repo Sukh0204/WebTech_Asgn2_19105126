@@ -4,7 +4,9 @@ public class MinOfThree {
 // statement.(Note: You don’t have to take input from user. ) 
 
     public static void main(String []args){
+         // assumptive input
          int first = 20, second = 10, third = 5;
+         // use if-else to get the min
          int min = first;
           if(min > second && min < third){
              min = second;

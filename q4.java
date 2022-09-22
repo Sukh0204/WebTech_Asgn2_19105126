@@ -6,6 +6,7 @@ public class q4 {
          int IntialPopulation = 80000;
          int NumYears = 0;
          while(IntialPopulation <= 150000){
+            //finding population increment
             IntialPopulation += 0.05 *IntialPopulation;
             NumYears++;
          }

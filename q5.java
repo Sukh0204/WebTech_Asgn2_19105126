@@ -19,8 +19,10 @@ public class q5 {
         // Creating a Scanner object
     Scanner scannerObj = new Scanner(System.in);
     int n = scannerObj.nextInt();
+    // adding headers 
     System.out.println("n n^2 n^3 n^4");
     for(int i = 1; i <= n; i++){
+        //Math.pow cannot be used since it gives double output => not desirable
         System.out.println(i + " " + i*i + " " + i*i*i + " " + i*i*i*i);
     }
     scannerObj.close();
